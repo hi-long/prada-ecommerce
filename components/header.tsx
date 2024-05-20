@@ -23,7 +23,7 @@ const Header = (props: Props) => {
     },
   ];
   return (
-    <nav className="fixed w-full h-[80px] flex items-center py-4 px-[50px] bg-white drop-shadow-lg">
+    <nav className="fixed w-full h-[80px] flex items-center py-4 px-[50px] bg-white drop-shadow-lg z-50">
       <div className="flex-1 flex items-center">
         <Link href={"/"}>
           <Image src={"/logo.svg"} height={48} width={57} alt="Logo" />
